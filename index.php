@@ -14,7 +14,7 @@
 <div class="container" >
     <div class="row">
         <video autoplay class="" id="home-video" preload="auto" style="position: absolute; top: 55% !important; left: 50% !important; transform: translateX(-50%) translateY(-50%); width: 2164.36px; height: 868px;">
-            <source src="./media/videos/tonda-calendar-annual.mp4" type="video/mp4">
+            <source src="./media/videos/toric-hemispheres.mp4" type="video/mp4">
         </video>
     </div>
 </div>
