@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer>
     <div class="container text-center">
-        <p>Copyright &copy; Your Website 2018</p>
+        <p>Copyright &copy; Before time 2018; By Jesús Miramontes & Iván Sifuentes</p>
     </div>
 </footer>
 
