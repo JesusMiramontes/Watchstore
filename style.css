@@ -12,9 +12,13 @@
 }
 
 ::-webkit-scrollbar {
-    display: none;
+    display: none !important;
 }
 
-a{
+.navbar a{
     color: black !important;
+}
+
+.navbar-shrink a {
+    color: white !important;
 }
