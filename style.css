@@ -23,3 +23,17 @@
 .navbar-shrink a {
     color: white !important;
 }
+
+.total{
+    color: black !important;
+    text-align: left;
+    font-family:sans-serif;
+    font-size: 20px !important;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.proceed-to-checkout{
+    width: 100% !important;
+}

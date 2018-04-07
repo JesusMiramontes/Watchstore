@@ -17,6 +17,9 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                 </li>
+                <li class="nav-item" style="padding-top: 8px; padding-left: 7px">
+                    <a href="cart.php"><i class="fas fa-shopping-cart"></i></a>
+                </li>
             </ul>
         </div>
     </div>
