@@ -37,3 +37,8 @@
 .proceed-to-checkout{
     width: 100% !important;
 }
+
+.white-over-black{
+    background-color: #1b1e21 !important;
+    color: white !important;
+}
