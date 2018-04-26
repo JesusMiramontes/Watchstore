@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5857ffd-b11b-4178-a566-7ae6ff01ccd6" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/connection_database.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/orders.php" afterPath="$PROJECT_DIR$/orders.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orders.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="orders.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orders.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
               <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connection_database.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/connection_database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -148,6 +158,7 @@
         <option value="$PROJECT_DIR$/nav.php" />
         <option value="$PROJECT_DIR$/orders.php" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/scripts/connection_database.php" />
       </list>
     </option>
   </component>
@@ -164,7 +175,9 @@
     <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -187,11 +200,6 @@
             <path>
               <item name="watchstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="watchstore" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="watchstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="watchstore" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="banners" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -243,12 +251,12 @@
       <workItem from="1523294645293" duration="1037000" />
       <workItem from="1523306727945" duration="1203000" />
       <workItem from="1523385570199" duration="1831000" />
-      <workItem from="1524774660629" duration="97000" />
+      <workItem from="1524774660629" duration="606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36761000" />
+    <option name="totallyTimeSpent" value="37270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -285,14 +293,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="101" lean-forward="false" selection-start-line="43" selection-start-column="101" selection-end-line="43" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/item_1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -678,6 +678,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/connection_database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
           <folding />
         </state>
       </provider>
