@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h1 class="brand-heading">Before time</h1>
-                    <div style="font-size: 6em"><i class="fas fa-shopping-cart"></i></div>
+                    <div style="font-size: 6em"><i class="fas fa-credit-card"></i></div>
                 </div>
             </div>
         </div>
