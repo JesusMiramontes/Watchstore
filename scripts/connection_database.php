@@ -15,5 +15,5 @@ $username = "root";
 $password = "";
 $database_name = "watchstore";
 
-# Crea la conexcion y se almacena en la variable global previamente definidgit 
+# Crea la conexion y se almacena en la variable global previamente definidgit
 $connection = mysqli_connect($host, $username, $password, $database_name);

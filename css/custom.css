@@ -1,0 +1,88 @@
+#sprite
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transition:top 2s ease, left 2s ease; -webkit-transition:top 2s ease, left 2s ease;
+    display:block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid red;
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#exit
+{
+    position:absolute;
+    top:90%;
+    left:90%;
+    transition:top 3s ease, left 3s ease; -webkit-transition:top 2s ease, left 2s ease;
+    display:block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#canvas
+{
+    height: 885px;
+    width: 1920px;
+    background-color: white;
+    margin: 0 !important;
+    padding: 0 auto !important;
+}
+
+body{
+    background-color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Consolas', Serif;
+}
+
+
+.input_group{
+    margin: 0px 20px 20px 20px;
+}
+
+.signup{
+    /*border: 1px solid #e7e7e7;*/
+    text-align: center;
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+
+.input_group input{
+    height: 40px;
+    font-size: 20px;
+    margin: 5px 10px 0px 0px;
+
+}
+
+.input_group label{
+    margin-top: 15px;
+}
+
+input[type="submit"]{
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #1e8bc3;
+    color: white !important;
+}
+
+#flash_messages{
+    /*font-weight: bold;*/
+    margin-left: 20px;
+}
