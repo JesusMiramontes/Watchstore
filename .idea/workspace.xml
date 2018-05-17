@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5857ffd-b11b-4178-a566-7ae6ff01ccd6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/forgot.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/forgot.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/forgot.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/reset.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/reset.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/reset.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forgot.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/forgot.php">
+      <file leaf-file-name="reset.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reset.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-              <folding />
+              <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forgot.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="forgot.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/forgot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="-914">
               <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
               <folding>
                 <marker date="1526573968421" expanded="false" signature="594:622" ph="..." />
@@ -55,6 +57,40 @@
                 <marker date="1526573968421" expanded="false" signature="3450:3478" ph="..." />
                 <marker date="1526573968421" expanded="true" signature="3479:3705" ph="..." />
                 <marker date="1526573968421" expanded="false" signature="3579:3586" ph="×" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/reset.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/reset.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+              <folding>
+                <marker date="1526574127721" expanded="false" signature="381:409" ph="..." />
+                <marker date="1526574127721" expanded="true" signature="410:669" ph="..." />
+                <marker date="1526574127721" expanded="false" signature="514:521" ph="×" />
+                <marker date="1526574127721" expanded="false" signature="875:903" ph="..." />
+                <marker date="1526574127721" expanded="true" signature="904:1133" ph="..." />
+                <marker date="1526574127721" expanded="false" signature="1008:1015" ph="×" />
+                <marker date="1526574127721" expanded="true" signature="1611:1684" ph="UPDATE users... " />
+                <marker date="1526574127721" expanded="false" signature="1788:1816" ph="..." />
+                <marker date="1526574127721" expanded="true" signature="1817:2030" ph="..." />
+                <marker date="1526574127721" expanded="false" signature="1917:1924" ph="×" />
+                <marker date="1526574127721" expanded="false" signature="2157:2185" ph="..." />
+                <marker date="1526574127721" expanded="true" signature="2186:2395" ph="..." />
+                <marker date="1526574127721" expanded="false" signature="2290:2297" ph="×" />
               </folding>
             </state>
           </provider>
@@ -118,6 +154,9 @@
         <option value="$PROJECT_DIR$/user/forgot.php" />
         <option value="$PROJECT_DIR$/scripts/forgot.php" />
         <option value="$PROJECT_DIR$/forgot.php" />
+        <option value="$PROJECT_DIR$/user/reset.php" />
+        <option value="$PROJECT_DIR$/scripts/reset.php" />
+        <option value="$PROJECT_DIR$/reset.php" />
       </list>
     </option>
   </component>
@@ -223,12 +262,12 @@
       <workItem from="1524774660629" duration="4160000" />
       <workItem from="1525285107498" duration="1771000" />
       <workItem from="1526487044713" duration="739000" />
-      <workItem from="1526501544452" duration="2663000" />
+      <workItem from="1526501544452" duration="2807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45997000" />
+    <option name="totallyTimeSpent" value="46141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -265,27 +304,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -642,9 +660,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/forgot.php">
+    <entry file="file://$PROJECT_DIR$/forgot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/reset.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
+          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+          <folding>
+            <marker date="1526574127721" expanded="false" signature="381:409" ph="..." />
+            <marker date="1526574127721" expanded="true" signature="410:669" ph="..." />
+            <marker date="1526574127721" expanded="false" signature="514:521" ph="×" />
+            <marker date="1526574127721" expanded="false" signature="875:903" ph="..." />
+            <marker date="1526574127721" expanded="true" signature="904:1133" ph="..." />
+            <marker date="1526574127721" expanded="false" signature="1008:1015" ph="×" />
+            <marker date="1526574127721" expanded="true" signature="1611:1684" ph="UPDATE users... " />
+            <marker date="1526574127721" expanded="false" signature="1788:1816" ph="..." />
+            <marker date="1526574127721" expanded="true" signature="1817:2030" ph="..." />
+            <marker date="1526574127721" expanded="false" signature="1917:1924" ph="×" />
+            <marker date="1526574127721" expanded="false" signature="2157:2185" ph="..." />
+            <marker date="1526574127721" expanded="true" signature="2186:2395" ph="..." />
+            <marker date="1526574127721" expanded="false" signature="2290:2297" ph="×" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/reset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/forgot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/forgot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-914">
           <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
           <folding>
             <marker date="1526573968421" expanded="false" signature="594:622" ph="..." />
@@ -661,22 +735,6 @@
             <marker date="1526573968421" expanded="true" signature="3479:3705" ph="..." />
             <marker date="1526573968421" expanded="false" signature="3579:3586" ph="×" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/forgot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forgot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
