@@ -1,4 +1,4 @@
-<?php include("./scripts/crud.php"); ?>
+<?php include("./scripts/create.php"); ?>
 
 <div class="container">
     <div class="row" style="text-align: center">
