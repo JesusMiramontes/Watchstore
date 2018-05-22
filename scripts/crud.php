@@ -25,6 +25,7 @@ if (isset($_POST['submit'])) {
     $descripcion = $_POST['descripcion'];
     $precio = $_POST['precio'];
     $image = $_POST['image'];
+    $stock = $_POST['stock'];
 
     # Revisa que ninguno de los campos esté vacío.
     if (empty($nombre) || empty($descripcion) || empty($precio) || empty($image)) {
@@ -41,6 +42,7 @@ if (isset($_POST['submit'])) {
         $descripcion = mysqli_real_escape_string($connection, $descripcion);
         $precio = mysqli_real_escape_string($connection, $precio);
         $image  = mysqli_real_escape_string($connection, $image);
+        $stock  = mysqli_real_escape_string($connection, $stock);
     }
 
     /*if ($ok) {
@@ -64,7 +66,7 @@ if (isset($_POST['submit'])) {
         /*$sql = "INSERT INTO users(username, email, password, activation_key, is_active, date_time)
                           VALUES ('{$username}', '{$email}', '{$password}', '{$activation_key}', '0', now())";*/
 
-        $sql = "INSERT INTO products (idproducts, nombre, descripcion, precio, img, stock) VALUES ('', '{$nombre}', '{$descripcion}', '{$precio}', '{$img}', '{$stock}')";
+        $sql = "INSERT INTO products (idproducts, nombre, descripcion, precio, img, stock) VALUES ('', '{$nombre}', '{$descripcion}', '{$precio}', '{$image}', '{$stock}')";
 
         # En caso de que no se haya completato correctamente el registro, muestra mensaje de error.
         if (!$query = mysqli_query($connection, $sql)) {
@@ -78,8 +80,7 @@ if (isset($_POST['submit'])) {
     {
 
         # Mensaje que se envía
-        $msg = "Activa tu cuenta haciendo clic al siguiente enlace: <a href='localhost/clicker/user/user_activation.php?key=".$activation_key."'>http://localhost/clicker/user/user_activation.php?
-                    key=".$activation_key."</a>";
+        $msg = "Activa tu cuenta haciendo clic ";
 
 
     }
