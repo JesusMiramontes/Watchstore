@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/swiftmailer/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/swiftmailer/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/swiftmailer/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/swiftmailer/vendor/composer" />
+    </include_path>
+  </component>
+</project>
