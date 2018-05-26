@@ -1,8 +1,8 @@
-<?php include("./scripts/create.php"); ?>
+<?php include("./scripts/products/create.php"); ?>
 
 <div class="container">
     <div class="row" style="text-align: center">
-        <h3>crud</h3>
+        <h3>Agregar Producto</h3>
     </div>
 
     <!-- Muestra los mensajes de error o éxito al usuario. -->
