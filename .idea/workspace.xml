@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5857ffd-b11b-4178-a566-7ae6ff01ccd6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/products/delete.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/scripts/products/delete.php" afterPath="$PROJECT_DIR$/scripts/products/delete.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +20,8 @@
       <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/products/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="54" />
               <folding>
                 <marker date="1527006476337" expanded="false" signature="1187:1215" ph="..." />
                 <marker date="1527006476337" expanded="true" signature="1216:1445" ph="..." />
@@ -42,24 +42,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prueba_productos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prueba_productos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="delete.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/products/delete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
-                <marker date="1527376937924" expanded="true" signature="202:255" ph="DELETE FROM products... " />
-                <marker date="1527376937924" expanded="true" signature="208:255" ph="SELECT * FRO... users" />
+                <marker date="1527378069864" expanded="true" signature="252:305" ph="DELETE FROM products... " />
+                <marker date="1527378069864" expanded="true" signature="258:305" ph="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -79,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/user/activate.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+              <caret line="5" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
               <folding>
                 <marker date="1526574387426" expanded="true" signature="167:216" ph="SELECT * FRO... users" />
                 <marker date="1526574387426" expanded="true" signature="438:500" ph="UPDATE users... " />
@@ -101,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -313,12 +303,12 @@
       <workItem from="1526487044713" duration="739000" />
       <workItem from="1526501544452" duration="3698000" />
       <workItem from="1526929437701" duration="9869000" />
-      <workItem from="1527372456265" duration="4243000" />
+      <workItem from="1527372456265" duration="4720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61144000" />
+    <option name="totallyTimeSpent" value="61621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -752,7 +742,7 @@
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -762,7 +752,7 @@
     <entry file="file://$PROJECT_DIR$/user/activate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+          <caret line="5" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
           <folding>
             <marker date="1526574387426" expanded="true" signature="167:216" ph="SELECT * FRO... users" />
             <marker date="1526574387426" expanded="true" signature="438:500" ph="UPDATE users... " />
@@ -779,10 +769,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/prueba_productos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/products/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="54" />
           <folding>
             <marker date="1527006476337" expanded="false" signature="1187:1215" ph="..." />
             <marker date="1527006476337" expanded="true" signature="1216:1445" ph="..." />
@@ -802,21 +800,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prueba_productos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/products/delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
-            <marker date="1527376937924" expanded="true" signature="202:255" ph="DELETE FROM products... " />
-            <marker date="1527376937924" expanded="true" signature="208:255" ph="SELECT * FRO... users" />
+            <marker date="1527378069864" expanded="true" signature="252:305" ph="DELETE FROM products... " />
+            <marker date="1527378069864" expanded="true" signature="258:305" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>

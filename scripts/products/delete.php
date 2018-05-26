@@ -1,4 +1,5 @@
 <?php
+include("../../scripts/connection_database.php");
 global $connection, $error;
 
 if (!empty($_GET['idproducts'])){
@@ -10,3 +11,4 @@ if (!empty($_GET['idproducts'])){
 if($idproducts != ''){
     $sql = mysqli_query($connection, "DELETE FROM products WHERE idproducts = '$idproducts'");
 }
+?>
