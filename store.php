@@ -47,6 +47,7 @@
                             echo "</div>";
                             echo "<div class=\"card-footer\">";
                             echo "<small class=\"text-muted\">&#9733; &#9733; &#9733; &#9733; &#9734;</small>";
+                            echo "</br><a href=\"http://localhost/watchstore/update.php?idproducts={$row['idproducts']}&nombre={$row['nombre']}&descripcion={$row['descripcion']}&image={$row['img']}&precio={$row['precio']}&stock={$row['stock']}\">Actualizar informacion</a>";
                             echo "</div>";
                             echo "</div>";
                             echo "</div>";
