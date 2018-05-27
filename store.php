@@ -42,7 +42,7 @@
                             echo "<h4 class=\"card-title\">";
                             echo "<a href=\"\">{$row['nombre']}</a>";
                             echo "</h4>";
-                            echo "<h5 style=\"color: black !important;\">${$row['precio']}</h5>";
+                            echo "<h5 style=\"color: black !important;\">$ {$row['precio']}</h5>";
                             echo "<p class=\"card-text\" style=\"color: black !important;\">{$row['descripcion']}</p>";
                             echo "</div>";
                             echo "<div class=\"card-footer\">";
