@@ -20,7 +20,7 @@
 </div>
 
 <!-- Intro Header -->
-<header class="masthead" style="margin-top: 36%; background:url(./media/images/watchset.jpg) no-repeat bottom center scroll;">
+<header class="masthead" style="margin-top: 36%; background:url(./media/images/watchset.jpg) no-repeat bottom center scroll;margin-bottom: -100px !important;">
     <div class="intro-body">
         <div class="container">
             <div class="row">
