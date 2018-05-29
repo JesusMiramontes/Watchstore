@@ -70,6 +70,7 @@ if(isset($_POST['login'])){
                 $username = $row['username'];
                 $hashed_password = $row['password'];
                 $is_active = $row['is_active'];
+                $is_admin = $row['is_admin'];
             }
         }
 
@@ -83,6 +84,7 @@ if(isset($_POST['login'])){
                     $_SESSION['id'] = $id;
                     $_SESSION['email'] = $email;
                     $_SESSION['username'] = $username;
+                    $_SESSION['is_admin'] = $is_admin;
                 }
                 else
                 {
