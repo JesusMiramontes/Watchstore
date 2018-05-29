@@ -80,7 +80,7 @@ if(isset($_POST['login'])){
             if(password_verify($password, $hashed_password)) {
                 if ($is_active == '1')
                 {
-                    header("Location: ./user/home.php");
+                    header("Location: ./");
                     $_SESSION['id'] = $id;
                     $_SESSION['email'] = $email;
                     $_SESSION['username'] = $username;
