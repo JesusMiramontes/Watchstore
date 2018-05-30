@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-    <?php include("./header.php"); ?>
+    <?php include("./header.php"); 
+    include("scripts/connection_database.php");?>
+    
 </head>
 
 <body class="bg-light" id="page-top">
@@ -12,19 +14,7 @@
 <?php include("./banners/1.php")?>
 
 
-<!-- Intro Header -->
-<header class="masthead" style="margin-top: 0%; ">
-    <div class="intro-body">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h1 class="brand-heading">Before time</h1>
-                    <div style="font-size: 6em"><i class="fas fa-shopping-cart"></i></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+
 
 <!-- Intro Header -->
 <header class="masthead" style="margin-top: 45%; background: white">
@@ -35,11 +25,9 @@
 
 
                     <?php
-                    include("scripts/connection_database.php");
-                    SESSION_START();
-                    $iduser = $_SESSION['id'];
+                     $iduser = $_SESSION['id'];
 
-                    $sql = "SELECT idproducts, nombre, descripcion, img, stock, precio FROM cart WHERE iduser = '$iduser';";
+                    $sql = "SELECT idproducts, nombre, descripcion, img, stock, precio FROM products WHERE idproducts = (SELECT idproducts FROM cart WHERE iduser = '$iduser');";
                     $result = $connection->query($sql);
 
                     if($result->num_rows > 0)
