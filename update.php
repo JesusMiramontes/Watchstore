@@ -3,6 +3,7 @@
 <head>
     <title>Iniciar sesión</title>
     <?php include("./header.php"); ?>
+    <?php include("scripts/only_admins.php");?>
 </head>
 
 <body>

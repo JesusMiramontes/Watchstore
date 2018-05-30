@@ -70,6 +70,7 @@ if(isset($_POST['login'])){
                 $username = $row['username'];
                 $hashed_password = $row['password'];
                 $is_active = $row['is_active'];
+                $is_admin = $row['is_admin'];
             }
         }
 
@@ -79,10 +80,11 @@ if(isset($_POST['login'])){
             if(password_verify($password, $hashed_password)) {
                 if ($is_active == '1')
                 {
-                    header("Location: ./user/home.php");
+                    header("Location: ./");
                     $_SESSION['id'] = $id;
                     $_SESSION['email'] = $email;
                     $_SESSION['username'] = $username;
+                    $_SESSION['is_admin'] = $is_admin;
                 }
                 else
                 {
