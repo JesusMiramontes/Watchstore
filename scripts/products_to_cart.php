@@ -1,8 +1,5 @@
 <!-- Establece una conexión a la base de datos -->
-<?php include("./scripts/connection_database.php"); ?>
-
-<!-- Incluye swiftmailer -->
-<?php require_once './swiftmailer/vendor/autoload.php';?>
+<?php include("connection_database.php"); ?>
 
 <?php
 
@@ -55,7 +52,7 @@ $ok = true;
         /*$sql = "INSERT INTO users(username, email, password, activation_key, is_active, date_time)
                           VALUES ('{$username}', '{$email}', '{$password}', '{$activation_key}', '0', now())";*/
 
-        $sql = "INSERT INTO cart (iduser, idproducts) VALUES ('{$iduser}', '{$idproducts}')";
+        $sql = "INSERT INTO cart (iduser, idproducts) VALUES ('{$iduser}', '{$idproduct}')";
 
         # En caso de que no se haya completato correctamente el registro, muestra mensaje de error.
         if (!$query = mysqli_query($connection, $sql)) {
