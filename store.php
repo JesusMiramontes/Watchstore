@@ -50,6 +50,7 @@
                             echo "<small class=\"text-muted\">&#9733; &#9733; &#9733; &#9733; &#9734;</small>";
                             if (security::is_admin())
                             {echo "</br><a href=\"http://localhost/watchstore/update.php?idproducts={$row['idproducts']}&nombre={$row['nombre']}&descripcion={$row['descripcion']}&image={$row['img']}&precio={$row['precio']}&stock={$row['stock']}\">Actualizar informacion</a>";}
+                            echo "</br><a href=\"http://localhost/watchstore/scripts/products_to_cart.php?iduser={$_SESSION['id']}&idproduct={$row['idproducts']}\">Actualizar informacion</a>";
                             echo "</div>";
                             echo "</div>";
                             echo "</div>";
