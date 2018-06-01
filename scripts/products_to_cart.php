@@ -58,6 +58,8 @@ $ok = true;
         if (!$query = mysqli_query($connection, $sql)) {
             $ok = false;
             die("QUERY FAILED " . mysqli_error($connection));
+        } else {
+            header("Location: ../cart.php");
         }
     }
 
